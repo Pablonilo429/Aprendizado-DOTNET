@@ -1,0 +1,9 @@
+﻿@model List<Produtos>
+<h1>Index</h1>
+<h2>Vc chegou no index de Produtos</h2>
+
+@foreach( var produto in Model){
+    <p>@produto.Id</p>
+    <p>@produto.Nome</p>
+    <br />
+}
